@@ -31,3 +31,5 @@ eval "$(starship init zsh)"
 autoload -Uz compinit
 compinit
 zstyle ':completion:*' menu select
+
+export PATH="/opt/nvidia/hpc_sdk/Linux_x86_64/26.3/compilers/bin/:$PATH"
